@@ -145,7 +145,7 @@ public class RxKeyboardAvoidingScrollView: UIScrollView, UITextFieldDelegate {
         }
     }
     
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if let nextResponder = self.nextResponder() {
             nextResponder.becomeFirstResponder()
             scrollToResponder()
