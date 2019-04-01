@@ -55,16 +55,16 @@
                                         <rect key="frame" x="28" y="394" width="319" height="135"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w2y-cY-t9g">
-                                                <rect key="frame" x="10" y="20" width="299" height="30"/>
+                                                <rect key="frame" x="0.0" y="20" width="319" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Zip Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PTP-97-2I6">
-                                                <rect key="frame" x="10" y="85" width="299" height="30"/>
+                                                <rect key="frame" x="0.0" y="85" width="319" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -74,9 +74,9 @@
                                             <constraint firstItem="PTP-97-2I6" firstAttribute="leading" secondItem="w2y-cY-t9g" secondAttribute="leading" id="JS2-qI-g2w"/>
                                             <constraint firstItem="w2y-cY-t9g" firstAttribute="centerX" secondItem="ZG5-gC-7IU" secondAttribute="centerX" id="MOg-UM-DZy"/>
                                             <constraint firstItem="PTP-97-2I6" firstAttribute="top" secondItem="w2y-cY-t9g" secondAttribute="bottom" constant="35" id="ZrQ-E2-Zjf"/>
-                                            <constraint firstItem="w2y-cY-t9g" firstAttribute="leading" secondItem="ZG5-gC-7IU" secondAttribute="leading" constant="10" id="eqT-6A-OBk"/>
+                                            <constraint firstItem="w2y-cY-t9g" firstAttribute="leading" secondItem="ZG5-gC-7IU" secondAttribute="leading" id="eqT-6A-OBk"/>
                                             <constraint firstItem="PTP-97-2I6" firstAttribute="trailing" secondItem="w2y-cY-t9g" secondAttribute="trailing" id="lZj-xd-ttq"/>
-                                            <constraint firstAttribute="trailing" secondItem="w2y-cY-t9g" secondAttribute="trailing" constant="10" id="ltE-se-aRF"/>
+                                            <constraint firstAttribute="trailing" secondItem="w2y-cY-t9g" secondAttribute="trailing" id="ltE-se-aRF"/>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSz-KV-ygx">
@@ -92,7 +92,7 @@
                                         </state>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="trailingMargin" secondItem="ZG5-gC-7IU" secondAttribute="trailing" constant="20" id="5GH-U3-NXY"/>
                                     <constraint firstItem="LSU-AJ-U5p" firstAttribute="centerX" secondItem="IHX-uQ-lca" secondAttribute="centerX" id="7zF-SD-8TM"/>
@@ -114,7 +114,7 @@
                                     <constraint firstItem="qSz-KV-ygx" firstAttribute="centerX" secondItem="IHX-uQ-lca" secondAttribute="centerX" id="tmT-Zb-5Mi"/>
                                     <constraint firstItem="J4c-t9-5Hx" firstAttribute="leading" secondItem="IHX-uQ-lca" secondAttribute="leadingMargin" constant="20" id="u4J-SS-hEu"/>
                                     <constraint firstItem="J6v-Er-Lyn" firstAttribute="top" secondItem="kdF-HG-VxA" secondAttribute="bottom" constant="35" id="uWW-LB-5zZ"/>
-                                    <constraint firstAttribute="bottom" secondItem="qSz-KV-ygx" secondAttribute="bottom" constant="50" id="yBR-XF-uHm"/>
+                                    <constraint firstAttribute="bottom" secondItem="qSz-KV-ygx" secondAttribute="bottom" constant="8" id="yBR-XF-uHm"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
