@@ -10,25 +10,17 @@ import XCTest
 @testable import RxKeyboardAvoidingScrollableView
 
 class RxKeyboardAvoidingScrollableViewTests: XCTestCase {
-
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    var testScrollView = RxKeyboardAvoidingScrollView(frame: CGRect(x: 0, y: 44, width: 375, height: 734))
+    var mockKeyboard = MockKeyboard(with: CGRect(x: 0, y: 550, width: 414, height: 346))
+    
+    func test_keyboardFrameChange_shouldUpdateContentIntent() {
+        mockKeyboard.show()
+        let expectedInsets = UIEdgeInsets(
+            top: 0,
+            left: 0,
+            bottom: testScrollView.bounds.height - mockKeyboard.origin.y + 44,
+            right: 0)
+        XCTAssertEqual(testScrollView.contentInset, expectedInsets)
     }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
