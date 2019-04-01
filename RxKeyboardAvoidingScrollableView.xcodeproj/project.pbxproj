@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B24FE92225240FD00898666 /* RxKeyboardAvoidingScrollableView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9B621DD02251E5C0009F9338 /* RxKeyboardAvoidingScrollableView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B621DBB224FB83D009F9338 /* RxKeyboardAvoidingScrollableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B621DB1224FB83D009F9338 /* RxKeyboardAvoidingScrollableView.framework */; };
 		9B621DC0224FB83D009F9338 /* RxKeyboardAvoidingScrollableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B621DBF224FB83D009F9338 /* RxKeyboardAvoidingScrollableViewTests.swift */; };
-		9B621DC2224FB83D009F9338 /* RxKeyboardAvoidingScrollableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B621DB4224FB83D009F9338 /* RxKeyboardAvoidingScrollableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B621DCD224FBC80009F9338 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B621DCC224FBC80009F9338 /* RxCocoa.framework */; };
 		9B621DCF224FBC80009F9338 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B621DCE224FBC80009F9338 /* RxSwift.framework */; };
 		9B621DD12251E5C0009F9338 /* RxKeyboardAvoidingScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B621DD02251E5C0009F9338 /* RxKeyboardAvoidingScrollableView.swift */; };
@@ -28,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		9B621DB1224FB83D009F9338 /* RxKeyboardAvoidingScrollableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxKeyboardAvoidingScrollableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B621DB4224FB83D009F9338 /* RxKeyboardAvoidingScrollableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxKeyboardAvoidingScrollableView.h; sourceTree = "<group>"; };
 		9B621DB5224FB83D009F9338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B621DBA224FB83D009F9338 /* RxKeyboardAvoidingScrollableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxKeyboardAvoidingScrollableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B621DBF224FB83D009F9338 /* RxKeyboardAvoidingScrollableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxKeyboardAvoidingScrollableViewTests.swift; sourceTree = "<group>"; };
@@ -83,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				9B621DD02251E5C0009F9338 /* RxKeyboardAvoidingScrollableView.swift */,
-				9B621DB4224FB83D009F9338 /* RxKeyboardAvoidingScrollableView.h */,
 				9B621DB5224FB83D009F9338 /* Info.plist */,
 			);
 			path = RxKeyboardAvoidingScrollableView;
@@ -115,7 +113,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B621DC2224FB83D009F9338 /* RxKeyboardAvoidingScrollableView.h in Headers */,
+				9B24FE92225240FD00898666 /* RxKeyboardAvoidingScrollableView.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
