@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9B24FE942252488400898666 /* RxKeyboardAvoidingScrollableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B24FE932252488400898666 /* RxKeyboardAvoidingScrollableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B24FE95225248DC00898666 /* RxKeyboardAvoidingScrollableView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9B621DD02251E5C0009F9338 /* RxKeyboardAvoidingScrollableView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B621DBB224FB83D009F9338 /* RxKeyboardAvoidingScrollableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B621DB1224FB83D009F9338 /* RxKeyboardAvoidingScrollableView.framework */; };
 		9B621DC0224FB83D009F9338 /* RxKeyboardAvoidingScrollableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B621DBF224FB83D009F9338 /* RxKeyboardAvoidingScrollableViewTests.swift */; };
 		9B621DCD224FBC80009F9338 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B621DCC224FBC80009F9338 /* RxCocoa.framework */; };
@@ -116,7 +115,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B24FE95225248DC00898666 /* RxKeyboardAvoidingScrollableView.swift in Headers */,
 				9B24FE942252488400898666 /* RxKeyboardAvoidingScrollableView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

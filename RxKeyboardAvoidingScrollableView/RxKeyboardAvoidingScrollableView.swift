@@ -10,24 +10,24 @@ import RxSwift
 import RxCocoa
 import UIKit
 
-class RxKeyboardAvoidingScrollView: UIScrollView, UITextFieldDelegate {
+public class RxKeyboardAvoidingScrollView: UIScrollView, UITextFieldDelegate {
     private let disposeBag = DisposeBag()
     private let keyboardFrame = BehaviorRelay<CGRect>(value: CGRect.zero)
     
     private var keyboardAnimationDuration: Float = 0.0
     private var keyboardAnimationCurve: Int = 0
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
     }
     
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         setup()
     }
