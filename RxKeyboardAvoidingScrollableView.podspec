@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url = "http://twitter.com/ameytavkar"
 
   spec.platform = :ios, "9.1"
-  spec.swift_version = '5'
+  spec.swift_version = '5.0'
   
   spec.requires_arc = true
   spec.source = { git: "https://github.com/ameytavkar/RxKeyboardAvoidingScrollableView.git", tag: "v#{spec.version}", submodules: false }
