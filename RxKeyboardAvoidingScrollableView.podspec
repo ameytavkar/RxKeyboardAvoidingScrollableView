@@ -11,8 +11,9 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5'
   
   spec.requires_arc = true
-  spec.source = { git: "https://github.com/ameytavkar/RxKeyboardAvoidingScrollableView.git", tag: "v#{spec.version}", submodules: true }
+  spec.source = { git: "https://github.com/ameytavkar/RxKeyboardAvoidingScrollableView.git", tag: "v#{spec.version}", submodules: false }
   spec.source_files = "RxKeyboardAvoidingScrollableView/**/*.{h,swift}"
 
   spec.dependency "RxSwift", "~> 4.4.2"
+  spec.dependency "RxCocoa", "~> 4.4.2"
 end

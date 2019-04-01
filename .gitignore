@@ -30,5 +30,4 @@ xcuserdata
 .build/
 
 # Carthage
-Carthage/
-ExampleApp/Carthage/
+Carthage/Build
